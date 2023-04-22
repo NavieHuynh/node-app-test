@@ -11,7 +11,7 @@ This repo is to demonstrate how to setup an express app connected to a mongo ser
 
 ## Setup:
 - Install Docker Desktop on the host OS 
-- Run 'docker-compose up' to startup the express and mongo servers
+- Run `docker-compose up` to startup the express and mongo servers
 - check http://localhost:3000/ to access the express server locally
 
 ## Dependencies
