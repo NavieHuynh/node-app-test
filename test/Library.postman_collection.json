@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "4956a964-31c8-4565-a1f2-a1708432f5e2",
+		"name": "Library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "catalog",
+			"item": [
+				{
+					"name": "/book",
+					"item": [
+						{
+							"name": "/:id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{book_url}}/5846437593935e2f8c2aa226",
+									"host": [
+										"{{book_url}}"
+									],
+									"path": [
+										"5846437593935e2f8c2aa226"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/create",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{book_url}}/create",
+									"host": [
+										"{{book_url}}"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{book_url}}/create",
+									"host": [
+										"{{book_url}}"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "/bookinstances",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{catalog_url}}/bookinstances",
+							"host": [
+								"{{catalog_url}}"
+							],
+							"path": [
+								"bookinstances"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/books",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{catalog_url}}/books",
+							"host": [
+								"{{catalog_url}}"
+							],
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{catalog_url}}",
+							"host": [
+								"{{catalog_url}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/authors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{catalog_url}}/authors",
+							"host": [
+								"{{catalog_url}}"
+							],
+							"path": [
+								"authors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/genres",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{catalog_url}}/genres",
+							"host": [
+								"{{catalog_url}}"
+							],
+							"path": [
+								"genres"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
